@@ -1,0 +1,27 @@
+[invoice]
+number = "EXAMPLE-2026-001"
+issue_date = "2026-08-14"
+due_date = "2026-08-28"
+issuer_name = "Example Studio"
+recipient_name = "Example Client"
+currency = "EUR"
+requirements_basis = "Fictional example only; verify legal, tax, client, issue, and payment facts directly."
+payment_terms = "Fictional terms: payment due within 14 days."
+payment_instruction = "Fictional instruction: add independently verified payment details before issue."
+notes = "Synthetic example invoice draft only."
+
+[[line_items]]
+position = 1
+id = "mix-service"
+description = "Fictional mixing service"
+net_cents = 100000
+tax_cents = 19000
+tax_note = "Fictional declared tax amount; verify actual treatment."
+
+[[line_items]]
+position = 2
+id = "prep-service"
+description = "Fictional preparation service"
+net_cents = 20000
+tax_cents = 0
+tax_note = "Fictional declared zero-tax line; verify actual treatment."
